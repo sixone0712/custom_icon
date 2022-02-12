@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-svg파일에 fill="currentColor" 이부분을 꼭 추가해줘야 컬러 적용됨
+svg파일에 svg태그에 fill="currentColor" 이부분을 꼭 추가해줘야 컬러 적용됨
 
 예)
 `
