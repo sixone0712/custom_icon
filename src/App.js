@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import CustomIcon from "./Component/CustomIcon";
+import { css } from "@emotion/react";
 
 function App() {
   return (
@@ -17,6 +19,15 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          <div>CustomIcon</div>
+          <CustomIcon
+            name="plans"
+            css={css`
+              color: red;
+            `}
+          />
+        </div>
       </header>
     </div>
   );
